@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<script>
+    function msg()
+    {
+    	document.getElementById("c1").innerHTML="Your response has Submmitted";
+    }
+</script>
+
+
+<style>
+    
+.contact form{
+  text-align: center;
+  padding:2rem;
+  border:.1rem solid rgba(0,0,0,.3);
+}
+
+.contact form .inputBox{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.contact form .inputBox input, .contact form textarea{
+  padding:1rem;
+  font-size: 1rem;
+  background:#f7f7f7;
+  text-transform: none;
+  margin:1rem 0;
+  border:.1rem solid rgba(0,0,0,.3);
+  width: 30%;
+}
+
+.contact form textarea{
+  height: 5rem;
+  resize: none;
+  width: 70%;
+}
+p
+{
+font-size:25px;
+
+}    
+</style>
+</head>
+<body>
+<section class="contact" id="contact">
+    <center>
+    <h1 class="heading"> <span>contact</span> us </h1>
+    <p id="c1">write Message</p>
+    </center>
+    <form >
+      <center>
+        <div class="inputBox">
+            <input type="text" placeholder="name">
+            <input type="email" placeholder="email">
+        </div>
+
+        <div class="inputBox">
+            <input type="number" placeholder="number">
+            <input type="text" placeholder="subject">
+        </div>
+
+        <textarea placeholder="message" name="" id="" cols="30" rows="10"></textarea>
+     </center>
+     <input type="button" value="send message" class="btn" onclick="msg()">
+    </form>
+
+</section>
+    
+</body>
+</html>

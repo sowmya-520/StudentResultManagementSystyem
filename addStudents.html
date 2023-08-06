@@ -1,0 +1,154 @@
+<!-- This is GUI for Used car price prediction Application Using Machine Learning Regression -->
+
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+<script src="https://kit.fontawesome.com/82f5b66b01.js" crossorigin="anonymous"></script>
+  <style>
+  
+    /* CSS code for button */
+    body {
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+    }
+
+    h1{
+        font-size:45;
+        color : #050505;
+        font-family: 'Dancing Script', cursive;
+     
+    }
+
+    /* CSS code for button */
+     
+
+    #corner {
+        border-radius:25px;
+        background :linear-gradient(skyblue,lightgreen,skyblue,lightgreen);
+        border : 2px solid #0e0d0d;
+        padding : 5px;
+        width : 500px;
+        height: 500px;
+        
+      }
+
+    #fnt{
+        font-size : 23px;
+        color : black;
+        font-family: 'Dancing Script', cursive;
+    }
+     #fnt:hover{
+        font-size : 30px;
+        color : black;
+        font-family: 'Dancing Script', cursive;
+        
+    }
+
+    #box {
+        border-radius : 15px;
+        border : 2px solid #0e0d0d;
+        width : 250px;
+        height : 25px;
+        font-size : 15px;
+        
+    }
+    #b1{
+        border : 2px solid #0e0d0d;
+        border-radius :2px;
+        width : 100px;
+        height : 50px;
+        font-size : 15px;
+        color :#0e0d0d;
+        background :linear-gradient(to bottom,#bfc4c485 0%,#5c5c5c85);
+    }
+
+    .login {
+       background : linear-gradient(skyblue,lightgreen,skyblue,lightgreen);
+       width:100%;
+       height:100%; 
+    }
+    .login img
+    {
+    border-radius:70%;
+    }
+    
+  </style>
+
+</head>
+
+<body>
+
+ 
+
+ <div class="login" align="center">
+	<img src="logo.jpg">
+    <center>
+         <br>
+            <br>
+               <br>
+                  <br>
+    
+    <form action="AddStudent.jsp">
+                                    
+ 
+        <h1 align='center'><u>Enter Student Details : </u> </h1>
+        
+        <table id="corner">
+    	<tr>
+            <td align='center' id="fnt">studentname :</td>
+            <td><input  id="box" type="text" name="studentname" placeholder="Student name" required="required" /></td>
+        </tr>
+        <tr>
+            <td align='center' id="fnt">fathername :</td>
+            <td><input id="box" type="text" name="fathername" placeholder="fathername" required="required" /></td>
+        </tr>
+        <tr>
+            <td align='center' id="fnt">mothername :</td>
+            <td><input id="box" type="text" name="mothername" placeholder="mothername" required="required" /></td>
+        </tr>
+        <tr>
+            <td align='center' id="fnt">course :</td>
+            <td><input  id="box" type="text" name="course" placeholder="course" required="required" /></td>
+        </tr>
+        <tr>
+            <td align='center' id="fnt">branch :</td>
+            <td><input  id="box" type="text" name="branch" placeholder="branch" required="required" /></td>
+        </tr>
+        <tr>
+            <td align='center' id="fnt">rollnum :</td>
+            <td><input  id="box" type="text" name="rollnum" placeholder=rollnumber " required="required" /></td>
+        </tr>
+        <tr>
+            <td align='center' id="fnt">gender :</td>
+            <td><input  id="box" type="text" name="gender" placeholder="gender" required="required" /></td>
+        </tr>
+        <tr>
+            <td align='center' id="fnt">place :</td>
+            <td><input  id="box" type="text" name="place" placeholder="place" required="required" /></td>
+        </tr>
+        <tr>
+            <td align='center' id="fnt">birthdate :</td>
+            <td><input  id="box" type="text" name="birthdate" placeholder="birthdate(YYYY-MM-DD))" required="required" /></td>
+        </tr>
+        <tr>
+            <td align='center' id="fnt">password :</td>
+            <td><input  id="box" type="text" name="password" placeholder="password" required="required" /></td>
+        </tr>
+    </table>
+
+
+      
+        <br>
+        <!-- Show button -->
+        <div align="center">
+            <button id="b1" type="submit" ><strong>save</strong></button>
+        </div>
+        
+    </form>
+    </center>
+
+</body>
+</html>
